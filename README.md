@@ -2,17 +2,17 @@
 
 Static HTML/CSS/JS landing page prepared for GitHub + Vercel.
 
-## Before publishing
+## Checkout and pricing
 
-Open `js/config.js` and add:
+The payment buttons are connected to Hotmart:
 
-- `checkoutUrl`: the Cakto checkout created for the English bundle.
+- `checkoutUrl`: `https://pay.hotmart.com/P107260462K`.
 - `price`: the exact price shown in that checkout, such as `$9.97`.
 - `comparePrice`: optional regular/reference price, such as `$19.97`.
 
 The Meta Pixel is already configured with ID `1559883709101573` and fires PageView, ViewContent and InitiateCheckout.
 
-The PDFs are not stored in this public website folder. Delivery must be configured inside the English Cakto product so buyers receive both PDF files after payment.
+The PDFs are not stored in this public website folder. Delivery must be configured inside the English Hotmart product so buyers receive both PDF files after payment.
 
 ## Publishing
 

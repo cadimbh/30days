@@ -1,5 +1,5 @@
 window.LANDING_CONFIG = {
-  checkoutUrl: "",
+  checkoutUrl: "https://pay.hotmart.com/P107260462K",
   metaPixelId: "1559883709101573",
   price: "",
   comparePrice: "",
