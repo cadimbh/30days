@@ -48,7 +48,7 @@
         }, { standard: true });
 
         if (!String(config.checkoutUrl || "").trim()) {
-          showToast("Your English Cakto checkout still needs to be added in js/config.js.");
+          showToast("Your Hotmart checkout still needs to be added in js/config.js.");
           return;
         }
 
